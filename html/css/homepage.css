@@ -1,0 +1,81 @@
+/*
+Template Name: Corporation
+File: Homepage CSS
+Author: OS Templates
+Author URI: http://www.os-templates.com/
+Licence: <a href="http://www.os-templates.com/template-terms">Website Template Licence</a>
+*/
+
+#gallery {
+	
+	}
+
+#gallery h1, #gallery p, #gallery ul, #gallery a{
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:normal;
+	}
+
+#gallery li{display:inline;}
+
+#gallery .placeholder{
+	display:block; 
+	float:left;
+	width:630px;
+	height:425px;
+	margin:0;
+	padding:3px;
+	color:#666666;
+	background-color:#F5F5F5;
+	text-indent:-9999px;
+	}
+	
+#gallery a.swap:link, #gallery a.swap:visited, #gallery a.swap:hover{
+	display:block;
+	float:left;
+	width:235px; 
+	height:140px; 
+	border-bottom: white 4px solid;
+	border-left: white 4px solid;
+	color:#666666;
+	cursor:default;
+	}
+
+#gallery li.placeholder, #gallery a.swap{
+	background: 0px 2px no-repeat;
+	}
+
+#gallery li.last a.swap{
+	margin-bottom:0;
+	}
+	
+a.swap:hover{
+	white-space:normal;
+	}
+
+a.swap:link strong, a.swap:visited strong, a.swap:active strong{
+	display:none;
+	}
+
+a.swap:link span, a.swap:visited span, a.swap:active span{
+	visibility:hidden;
+	position:absolute; 
+	top:2px; 
+	left:0px; 
+	width:630px;
+	height:425px;
+	
+	
+	}
+	
+a.swap:active span, a.swap:hover span, a.swap:focus span{
+	visibility:visible; 
+	}
+
+a.swap:active img, a.swap:focus img {
+	position:relative; 
+	z-index:50;
+	}
+
+

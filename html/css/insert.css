@@ -1,0 +1,27 @@
+
+		#insert{
+			width: 600px;
+		}
+ 		
+ 		#anteprima{
+	 		
+	 		height: 320px;
+	 		border-style: none;
+	 		width: 250px;
+
+ 		}
+ 		
+ 		p#bottoni > input:hover{
+ 			background-color: #B79F46;
+	 		color: white;
+ 		}
+ 
+ 		#frame{
+	 		float: left;
+ 		}
+ 		
+ 		#response{
+	 		width: 500px;
+	 		color: red;
+	 		padding: 20px;
+ 		}
